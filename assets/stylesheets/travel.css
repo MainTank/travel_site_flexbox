@@ -99,3 +99,14 @@ screen is at a max width of 600px
 HINT:
 leverage the classes .bird and .population
 */
+@media (max-width: 800px) {
+    .bird {
+      display: none;
+    }
+}
+
+@media (max-width: 600px) {
+  .population {
+    display: none;
+  }
+}
