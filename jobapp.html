@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="assets/stylesheets/formstyle.css"/>
+    <title></title>
+  </head>
+  <body>
+    <div id="form">
+      <div class="field a"><p>Name</p><input type="text" name="name" placeholder="What is your full name?"></div>
+      <div class="field a bl"><p>Company</p><input type="text" name="company" placeholder="Where do you currently work?"></div>
+      <div class="field b"><p>Phone Number</p><input type="text" name="phonenum" placeholder="What is the best # to reach you?"></div>
+      <div class="field b bl"><p>Email</p><input type="text" name="email" placeholder="What is your e-mail address?"></div>
+      <div class="field b bl"><p>availability</p>
+          <select name="cars">
+            <option value="0-5">0-5 hrs per week</option>
+            <option value="5-15" selected>5-15 hrs per week</option>
+            <option value="15-25">15-25 hrs per week</option>
+            <option value="25-40">25-40 hrs per week</option>
+            <option value="40+">40+ hrs per week</option>
+          </select>
+      </div>
+      <div class="field c"><p>Skills</p><input type="text" name="skills" placeholder="List a few of your primary skills"></div>
+      <div class="field c bl"><p>Yrs Esperiance</p><input type="text" name="exp" placeholder="How many years of experiance?"></div>
+      <div class="field c bl"><p>favorite color</p><input type="text" name="color" placeholder="What's your favorite color, above all others?"></div>
+      <div class="field c bl"><p>Programming language of choice</p><input type="text" name="lan" placeholder="I know. Tough question."></div>
+      <div id="button"><button type="submit" form="form1" value="Submit">Submit Form</button>
+    </div>
+  </body>
+</html>
